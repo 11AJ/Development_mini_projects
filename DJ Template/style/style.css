@@ -1,0 +1,77 @@
+body{
+    background:url("../images/bodybg.gif") repeat-x;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    width: 100%
+}
+#header{
+    width: 785px;
+    height: 340px;
+    margin:10px auto 0;
+    background-image:url("../images/header.jpg");
+}
+#navtop{
+    margin:10px 10px;
+    padding-left: 30px;
+    padding-top: 20px;
+    background-color: #a49156;
+    opacity: 0.5;
+    width: 10%;
+}
+#header ul{
+    list-style-type: none;
+    text-align: center;
+}
+#header a{
+    text-decoration: none;
+    color: black;
+}
+a :hover{
+    color: green;
+}
+#content{
+    width: 785px;
+    height: 440px;
+    margin: auto;
+    background-image: url("file:///C:/Users/ABHIS/OneDrive/Desktop/HTML/Day%201.html/DJ%20Template/images/contentbg.gif");
+    background-color: cyan;
+    color:#7a6b3e;
+}
+#news{
+    width: 30%;
+    overflow: hidden;
+    margin-left: 15px;
+    padding-left: 15px;
+    float: left;
+}
+#images{
+    width: 30%;
+    overflow: hidden;
+    padding-left: 25px;
+    float: left;
+}
+#images img{
+    height: 152px;
+}
+#offer{
+    width: 30%;
+    height: 400px;
+    float: left;
+    color:#e5d7a7;
+    overflow: hidden;
+    padding: 10px;
+}
+#offer img{
+    width: 100%;
+}
+#bottom{
+    width: 785px;
+    height: 18px;
+    margin: auto;
+    background-image: url("C:/Users/ABHIS/OneDrive/Desktop/HTML/Day 1.html/DJ Template/images/navbottom.png");
+    text-align: center;
+}
