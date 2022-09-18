@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id='canvas' width='1300px' height='600px' style=' border: 2px solid black; background: black;'>
+    </canvas>
+    <script>
+        let can= document.getElementById('canvas');
+        let d= can.getContext('2d');
+
+        d.strokeStyle='black'
+        d.fillStyle='red'
+        
+        d.beginPath() 
+        
+        d.moveTo(870,300);
+        d.arc(650,300,220,0,2*Math.PI);
+        d.fill();
+        d.stroke();
+        d.closePath()
+        
+        d.fillStyle='black'
+
+        d.beginPath()
+        d.moveTo(850,300);
+        d.arc(650,300,200,0,2*Math.PI);
+        d.stroke();
+        d.fill()
+        d.closePath()
+        
+        d.fillStyle='goldenrod'
+        d.strokeStyle='red'
+        d.linewidth='20'
+        d.shadowColor = "red"
+        d.shadowBlur = '6'
+        d.shadowOffsetX = '6'
+        d.shadowOffsetY = '6'
+        
+        d.beginPath()
+        d.moveTo(850,60);
+        d.lineTo(670,240);
+        d.lineTo(760,240);
+        d.lineTo(640,350);
+        d.lineTo(720,350);
+        d.lineTo(430,550);
+        d.lineTo(600,390);
+        d.lineTo(520,390);
+        d.lineTo(650,280);
+        d.lineTo(550,280);
+        d.lineTo(850,60);
+        d.stroke();
+        d.fill()
+        d.closePath()
+
+        d.linewidth='10'
+        d.strokeStyle='red'
+        d.fillStyle='goldenrod'
+        d.font='70px Arial'
+
+        d.fillText('FLASH',1000,500)
+        d.strokeText('FLASH',1000,500)
+
+    </script>
+</body>
+</html>
