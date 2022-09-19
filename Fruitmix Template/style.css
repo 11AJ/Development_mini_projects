@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("images/templatemo_body.jpg") repeat-x #ede4bb;
+}
+#navtop{
+    width: 1000px;
+    height: 142px;
+    background: url("images/templatemo_header.jpg") no-repeat;
+    margin: auto;
+    padding-left: 10px;
+    margin-top: -5px;
+}
+#fruit{
+    width: 30%;
+    height: 100px;
+    float: left;
+}
+#fruit img{
+    width: 142px;
+    height: 114px;
+    margin-left: -50px;
+}
+#logo{
+    width: 171px;
+    height: 35px;
+    margin-left: -240px;
+    margin-top: 100px;
+    float: left;
+}
+#nav{
+    width: 100%;
+    height: 100%;
+    margin: 5px 0 0 200px;
+    padding-top: 55px;
+    padding-left: 20px;
+}
+#nav ul a{
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 30px;
+    margin-right: 7%;
+    color: #876c38;
+}
+a :hover{
+    color: #035416;
+}
+#content{
+    width: 60%;
+    height: 790px;
+    margin: auto;
+}
+#col1{
+    background: url("images/templatemo_sidebar.jpg") repeat-y;
+    width: 30%;
+    padding-left: 40px;
+    float: left;
+}
+#col1 li{
+    padding-top: 10px;
+    list-style-image: url("images/templatemo_list.png");
+}
+#col1 a{
+    text-decoration: none;
+}
+a :hover{
+    color: red;
+    text-decoration: underline;
+}
+#col2{
+    float: left;
+    width: 70%;
+}
+#row2{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+#row2 img{
+    border: 10px solid white;
+}
+#featured{
+    width: 40%;
+    float: left;
+}
+#innovation{
+    margin-left: 100px;
+    width: 40%;
+    float: left;
+}
+#bottom{
+    width: 960px;
+    background: url('images/templatemo_footer.png');
+    margin: auto;
+    height: 70px;
+}
+#design{
+    width: 30%;
+    text-align: center;
+    padding-top: 20px;
+    float: left;
+}
+#img{
+    width: 30%;
+    float: left;
+    margin-top: -150px;
+    margin-left: 70px;
+}
