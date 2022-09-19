@@ -5,3 +5,5 @@
 | Form Template         | https://11aj.github.io/Development_mini_projects/Form%20Template/index.html                  |
 | Form Template 2       | https://11aj.github.io/Development_mini_projects/Form%20Template%202/index.html              |
 | Canvas Tag Icon       | https://11aj.github.io/Development_mini_projects/canvas%20tag/index.html                     |
+| Facebook Clone        |
+| Fruitmix Template     |
