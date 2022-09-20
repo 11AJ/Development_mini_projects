@@ -8,7 +8,7 @@
 | Facebook Clone        | https://11aj.github.io/Development_mini_projects/Facebook%20Clone/index.html                 |
 | Fruitmix Template     | https://11aj.github.io/Development_mini_projects/Fruitmix%20Template/index.html              |
 | Gracious Template     | https://11aj.github.io/Development_mini_projects/Gracious/index.html                         |
-| Image Carousal Effect | https://11aj.github.io/Development_mini_projects/Image Carousel/ok.html                      |                |
-| Image Overlay Effect  | https://11aj.github.io/Development_mini_projects/Image Overlay effect/Image Overlay Effect.html |                |
-| 1D Template           | https://11aj.github.io/Development_mini_projects/Template 1D/index.html                      |
-| The Band Template     | https://11aj.github.io/Development_mini_projects/The Band/The Band.html                      |
+| Image Carousal Effect | https://11aj.github.io/Development_mini_projects/Image%20Carousel/ok.html                      |                |
+| Image Overlay Effect  | https://11aj.github.io/Development_mini_projects/Image%20Overlay%20effect/Image%20overlay%20Effect.html |                |
+| 1D Template           | https://11aj.github.io/Development_mini_projects/Template%201D/index.html                      |
+| The Band Template     | https://11aj.github.io/Development_mini_projects/The%20Band/The%20Band.html                      |
