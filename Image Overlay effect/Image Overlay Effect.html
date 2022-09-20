@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #parent{
+        height: 300px;
+        width: 500px;
+        position: relative;
+        margin-left: 50px;
+        margin-right: 50px;
+        float: left;
+    }
+    #child{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0,0,0,0.5);
+        color: white;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    #original{
+        float: left;
+    }
+    p{
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+    <div id="parent">
+    <img src='Captain America 2.jpg' width="500px" height="300px">
+    <p>OVERLAY EFFECT</p>
+        <div id="child">
+        </div>
+    </div>
+    <div id='original'>
+        <img src="Captain America 2.jpg" width='500px' height='300px'>
+        <p> ORIGINAL</p>
+    </div>
+</body>
+</html>

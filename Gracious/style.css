@@ -1,0 +1,567 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#social{
+    width: 100%;
+    height: 50px;
+    background: #31231E;
+    font-family: 'Quicksand', sans-serif;
+}
+#left7{
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+}
+#left7 a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+#left7 i{
+    font-size: 25px;
+    color: white;
+    margin-right: 7px;
+    margin-top: 5px;
+}
+#right7{
+    float: right;
+    font-size: 25px;
+    margin-right: 40px;
+    color: white;
+    margin-top: 10px;
+}
+#right7 i{
+    margin-left: 5px;
+}
+i:hover{
+    color: goldenrod;
+}
+#nav{
+    width: 100%;
+    height: 90px;
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    position: sticky;
+    top: 0px; 
+    z-index: 100;
+    background: white;
+}
+#img{
+    width: 15%;
+    height: auto;
+    margin: 20px 0 20px 10px;
+    float: left;
+}
+#navtab{
+    width: 60%;
+    height: 50px;
+    float: left;
+    margin: 40px 5px 40px 40px;
+    
+}
+#navtab a{
+    text-decoration: none;
+    list-style-type: none;
+    float: left;
+    margin-left: 7%;
+    color: #31231E;
+    font-weight: 900;
+}
+#righttab{
+    width: 20%;
+    height: 70px;
+    float: left;
+    margin-top: 10px;
+}
+#homenav{
+    width: 50px;
+    height: 80px;
+}
+.fa-search{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 2px solid green;
+    padding: 10px 15px;
+    border-radius: 100px;
+}
+.donatebutton{
+    width: 110px;
+    height: 50px;
+    background: goldenrod;
+    color: white;
+    border-radius: 100px;
+    margin-left: 20px;
+    border: none;
+    font-size: 16px;
+}
+#banimg1{
+    width: 100%;
+    height: 420px;
+    position: relative;
+}
+#banimg1 img{
+    width: 100%;
+    height: 390px;
+}
+#text{
+    width: 100%;
+    height: 390px;
+    position: absolute;
+    font-size: 80px;
+    top: 0;
+    left: 0;
+    background: rgb(0,0,0,.3);
+    color: white;
+    padding-top: 150px;
+    padding-left: 50px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+}
+#banimg1 button{
+    width: 200px;
+    height: 50px;
+    background: goldenrod;
+    color: white;
+    border-radius: 3%;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+}
+#container{
+    width: 100%;
+    height: 1500px;
+    background: #F8F4F3;
+    margin-top: -30px;
+    font-family: 'Playfair Display', serif;
+}
+#content{
+    width: 90%;
+    height: 1000px;
+    margin: auto;
+    padding-top: 90px; 
+}
+small{
+    color: #20c997;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    color: goldenrod;
+    font-weight: 900;
+}
+#causes{
+    width: 100%;
+    height: auto;
+}
+#cause1{
+    width: 31.5%;
+    height: 530px;
+    margin-top: 40px;
+    border-radius: 4%;
+    background: white;
+    position: relative;
+    float: left;
+}
+#cause1 img{
+    width: 100%;
+    height: 280px;
+    border-radius: 4% 4% 0 0;
+}
+.donationbar{
+    width: 300px;
+    height: 60px;
+    padding-left: 20px;
+    border-radius: 4%;
+    background: white;
+    margin: auto;
+    margin-top: -40px;
+    position: relative;
+    z-index: 2;
+    box-shadow: 1px 1px 14px black;
+}
+.donation{
+    margin-top: 10px;
+    width: 250px;
+}
+.causetext{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+.causesbutton{
+    width: 80px;
+    height: 30px;
+    background: #D4D1D8;
+    opacity: .4;
+    border-radius: 100px;
+    border: none;
+}
+.donate{
+    width: 150px;
+    height: 50px;
+    margin-left: 160px;
+    position: relative;
+    z-index: 5;
+    background: rgb(1, 85, 1);
+    border-radius: 100px;
+    font-size: 16px;
+    border: none;
+    color: white;
+}
+.donate:hover{
+    opacity: .6;
+}
+#cause2{
+    width: 31.5%;
+    height: 530px;
+    margin-top: 40px;
+    border-radius: 4%;
+    background: white;
+    position: relative;
+    float: left;
+    margin-left: 30px;
+}
+#cause2 img{
+    width: 100%;
+    height: 280px;
+    border-radius: 4% 4% 0 0;
+}
+#cause3{
+    width: 31.5%;
+    height: 530px;
+    margin-top: 40px;
+    border-radius: 4%;
+    background: white;
+    position: relative;
+    float: left;
+    margin-left: 30px;
+}
+#cause3 img{
+    width: 100%;
+    height: 280px;
+    border-radius: 4% 4% 0 0;
+}
+h3{
+    color: goldenrod;
+}
+#cause4{
+    width: 31.5%;
+    height: 530px;
+    margin-top: 40px;
+    border-radius: 4%;
+    background: white;
+    position: relative;
+    float: left;
+}
+#cause4 img{
+    width: 100%;
+    height: 280px;
+    border-radius: 4% 4% 0 0;
+}
+#cause5{
+    width: 31.5%;
+    height: 530px;
+    margin-top: 40px;
+    border-radius: 4%;
+    background: white;
+    position: relative;
+    float: left;
+    margin-left: 30px;
+}
+#cause5 img{
+    width: 100%;
+    height: 280px;
+    border-radius: 4% 4% 0 0;
+}
+#cause6{
+    width: 31.5%;
+    height: 530px;
+    margin-top: 40px;
+    border-radius: 4%;
+    background: white;
+    position: relative;
+    float: left;
+    margin-left: 30px;
+}
+#cause6 img{
+    width: 100%;
+    height: 280px;
+    border-radius: 4% 4% 0 0;
+}
+#featuredcause{
+    width: 100%;
+    height: 650px;
+    color: grey;
+}
+#row1{
+    margin-top: 150px;
+    width: 50%;
+    height: 400px;
+    float: left;
+    position: relative;
+    font-size: 20px;
+}
+#row1 img{
+    width: 100%;
+    border-radius: 3%;
+    box-shadow: 2px 0 10px black;
+}
+#pledgedbox{
+    width: 350px;
+    height: 150px;
+    border-radius: 5%;
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    background: white;
+}
+#ptext{
+    width: 70%;
+    margin: auto;
+    padding-top: 10px;
+}
+.pbar{
+    width: 100%;
+}
+spam{
+    color: goldenrod;
+    font-size: 22px;
+}
+#row2{
+    margin-top: 150px;
+    width: 40%;
+    height: 400px;
+    float: right;
+    position: relative;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+}
+.donatebutton2{
+    width: 150px;
+    height: 50px;
+    background: goldenrod;
+    color: white;
+    border-radius: 100px;
+    margin-left: 20px;
+    border: none;
+    font-size: 16px;
+}
+#row2 img{
+    width: 20px;
+}
+#havequestions{
+    width: 100%;
+    height: 1000px;
+    background: #ECE8E7;
+}
+#banimg2{
+    width: 92%;
+    height: 700px;
+    margin: auto;
+    position: relative;
+}
+#banimg2 img{
+    width:100%;
+    height: 100%;
+    margin-top: 120px;
+}
+#blueover{
+    width: 100%;
+    height: 100%;
+    background: #27304b;
+    position: absolute;
+    top: 120px;
+    opacity: .8;
+    z-index: 2;
+}
+#c1{
+    margin-top: 130px;
+    margin-left: 120px;
+    width: 40%;
+    color: white;
+    font-size: 20px;
+    float: left;
+}
+#c2{
+    width: 40%;
+    height: auto;
+    float: left;
+    margin-left:50px; 
+    margin-top: 130px;
+    font-size: 20px;
+    color: white;
+}
+.squarebutton{
+    width: 40px;
+    height: 40px;
+    background: goldenrod;
+    color: white;
+    border-radius: 10%;
+    border: none;
+    font-size: 30px;
+}
+.squarebutton2{
+    width: 40px;
+    height: 40px;
+    background: rgb(11, 116, 11);
+    color: white;
+    border-radius: 10%;
+    font-size: 25px;
+    border: none;
+}
+#globalproviders{
+    width: 100%;
+    margin: auto;
+    height: 380px;
+    background: #ECE8E7;
+    padding-left: 4%;
+
+}
+#globalproviders img{
+    margin-top: 50px;
+    background: white;
+    width: 180px;
+    height: 150px;
+    margin-right: 50px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 10px goldenrod;
+}
+#newsletter{
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+#newsletter img{
+    width: 100%;
+    height: 100%;
+}    
+#ro1{
+    width: 80%;
+    height: 200px;
+    color: white;
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    font-size: 20px;
+}
+.email{
+    margin-top: 18px;
+    width: 430px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    padding-left: 20px;
+}
+#telcon{
+    width: 250px;
+    height: 100px; 
+    float: right;
+    position: absolute;
+    right: -170px;
+    top: 20px;
+    padding-top: 30px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.num{
+    font-size: 35px;
+}
+#ro2{
+    width: 95%;
+    margin: auto;
+    height: 350px;
+    position: absolute;
+    top: 300px;
+    left: 3%;
+}
+#co1{
+    width: 20%;
+    height: 250px;
+    margin-left: 20px;
+    float: left;
+    color: white;
+}
+#co1 img{
+    width: 100%;
+    height: 100px;
+}
+#co2{
+    width: 20%;
+    height: 250px;
+    margin-left: 70px;
+    float: left;
+    color: white;
+    margin-top: 25px;
+    font-size: 18px;
+}
+#co2 i{
+    margin-top: 10px;
+    font-size: 25px;
+    margin-right: 10px;
+}
+#co3{
+    margin-top: 25px;
+    width: 20%;
+    height: 400px;
+    margin-left: 60px;
+    float: left;
+    font-size: 18px;
+    color: white;
+}
+.explore{
+    margin-top: 30px;
+    list-style-type: none;
+    list-style-image: url(images/list.jpg);
+}
+.explore li{
+    margin-top: 15px;
+    margin-left: 30px;
+}
+#co4{
+    width: 20%;
+    height: 400px;
+    margin-top: 25px;
+    float: left;
+    color: white;
+}
+#co4 img{
+    width: 70px;
+    height: 70px;
+    margin-left: 6px;
+    margin-bottom: 6px;
+    float: left;
+}
+#soc{
+    float: left;
+    font-size: 25px;
+    margin-right: 40px;
+    color: white;
+    margin-top: 10px;
+}
+#soc i{
+    margin-left: 10px;
+}
+#foot{
+    width: 100%;
+    height: 100px;
+    background: black;
+}
+#left{
+    width: 40%;
+    margin: auto;
+    color: white;
+    padding-top: 30px;
+}
+.conte2{
+    display: none;
+}
+.conte3{
+    display: none;
+}

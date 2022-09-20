@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="carousel w-[100%]">
+        <div class="banner w-[90%] mx-auto justify-center flex border-4 border-black">
+            <div class="slide w-[100%] h-[650px] overflow-hidden hide">
+                <img src="1.jpg" alt="">
+            </div>
+            <div class="slide w-[100%] h-[650px] overflow-hidden show">
+                <img src="2.jpg" alt="">
+            </div>
+            <div class="slide w-[100%] h-[650px] overflow-hidden hide">
+                <img src="3.jpg" alt="">
+            </div>
+        </div>
+        <div class="button w-96 flex mx-auto space-x-5 mt-10">
+            <div class="left">
+                <button class="w-40 py-2 px-3 bg-red-600 text-white rounded-lg active:bg-fuchsia-800">Left</button>
+            </div>
+            <div class="right">
+                <button class="w-40 py-2 px-3 bg-red-600 text-white rounded-lg active:bg-fuchsia-800">Right</button>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .show{
+          display: block;   
+        }
+        .hide{
+            display: none;
+        }
+    </style>
+
+
+    <script>
+
+        document.querySelector('.right').addEventListener('click',nextslide);
+        document.querySelector('.left').addEventListener('click',prevslide);
+
+        let count = 0;
+        let slide = document.querySelectorAll('.slide');
+        let slidelen = slide.length;
+
+        function nextslide(){
+            if(count < slidelen-1){
+                count++;
+            }
+            else{
+                count = 0;
+            }
+
+            for(i=0; i<slidelen; i++){
+                slide[i].classList.add('hide');
+                slide[i].classList.remove('show');
+            }
+
+            slide[count].classList.remove('hide');
+            slide[count].classList.add('show');
+        }
+
+        function prevslide(){
+            if(count > 0){
+                count--;
+            }
+            else{
+                count = slidelen -1; 
+            }
+
+            for(i=0; i<slidelen; i++){
+                slide[i].classList.add('hide');
+                slide[i].classList.remove('show');
+            }
+
+            slide[count].classList.remove('hide');
+            slide[count].classList.add('show');
+        }
+    </script>
+</body>
+</html>
