@@ -4,7 +4,7 @@
 | DJ Template           | https://11aj.github.io/Development_mini_projects/DJ%20Template/index.html                                |
 | Form Template         | https://11aj.github.io/Development_mini_projects/Form%20Template/index.html                              |
 | Form Template 2       | https://11aj.github.io/Development_mini_projects/Form%20Template%202/index.html                         |
-| Canvas Tag Icon       | https://11aj.github.io/Development_mini_projects/canvas%20tag/index.html                                |
+| Canvas Tag Icon       | https://11aj.github.io/Development_mini_projects/canvas%20tag/index.html                                 |
 | Facebook Clone        | https://11aj.github.io/Development_mini_projects/Facebook%20Clone/index.html                            |
 | Fruitmix Template     | https://11aj.github.io/Development_mini_projects/Fruitmix%20Template/index.html                         |
 | Gracious Template     | https://11aj.github.io/Development_mini_projects/Gracious/index.html                                    |
