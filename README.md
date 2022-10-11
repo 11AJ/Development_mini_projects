@@ -13,3 +13,4 @@
 | 1D Template           | https://11aj.github.io/Development_mini_projects/Template%201D/index.html                                 |
 | The Band Template     | https://11aj.github.io/Development_mini_projects/The%20Band/The%20Band.html                               |
 | Testemonial Section   | https://11aj.github.io/Development_mini_projects/Testemonial%20Section%20Via%20Grid/index.html            |
+| Fylo Data Storage Component   | https://11aj.github.io/Development_mini_projects/Fylo%20Data%20Storage%20Component/index.html     |
