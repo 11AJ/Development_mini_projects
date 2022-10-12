@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+}
+.main{
+    width: 60%;
+    height: 450px;
+    background-color: bisque;
+    margin-left: 20%;
+    margin-top: 100px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .box1{
+    height: 100%;
+    width: 33.3%;
+    background-color: var(--Bright-orange);
+    float: left;
+  }
+  .box2{
+    height: 100%;
+    width: 33.3%;
+    background-color: var(--Dark-cyan);
+    float: left;
+  }
+  .box3{
+    height: 100%;
+    width: 33.3%;
+    background-color: var(--Very-dark-cyan);
+    float: left;
+  }
+  .top{
+    margin-top: 50px;
+    margin-left: 15%;
+  }
+  .mid{
+    font-family: 'Inter', sans-serif;
+    margin-top: 40px;
+    margin-left: 15%;
+  }
+  .bottom{
+    margin-top: 45px;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  button{
+    width: 45%;
+    height:40px ;
+    border-radius: 50px;
+    border: 2px solid white;
+    margin-left: 15%;
+    margin-top: 50px;
+    cursor: pointer;
+    color: transparent;
+  }
+  .box1 >button{
+    color: var(--Bright-orange);
+  }
+  .box2 >button{
+    color: var(--Dark-cyan);
+  }
+  .box3 >button{
+    color: var(--Very-dark-cyan);
+  }
+  button a:hover{
+    color: white;
+  }
+  button:hover{
+    background: transparent;
+    color: white;
+  }
+  a{
+    color: white;
+  }
+  .heading{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 34px;
+  }
+
+  @media screen and (min-width: 375px) and (max-width:575px) {
+    .main{
+        width: 80%;
+        margin: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        background-color: white;
+    }
+    .box1,.box2,.box3{
+        width: 100%;
+        height: 450px;
+    }
+  }
